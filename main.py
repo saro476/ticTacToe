@@ -40,9 +40,11 @@ def test1():
     f.write( str(node) )
     f.close
 
+def test2():
+    gui = GraphicUi()
 
 if __name__ == '__main__':
-    test1()
+    test2()
 
     # ui = TextUi()
     # ui.run()

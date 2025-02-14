@@ -1,0 +1,14 @@
+[project]
+name = "saro476-tictactoe"
+version = "0.1.0"
+description = "A simple Tic-Tac-Toe AI"
+authors = [
+    {name = "saro476", email = "aaloway@gmail.com"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3"
+license = {file = "LICENSE"}
+readme = "README.md"

@@ -11,6 +11,8 @@ from enum import Enum
 
 debug = False
 
+def log( text ):
+    print( text )
 
 # Enumerations
 class GameMode( Enum ):
@@ -300,10 +302,6 @@ class GameFrame(tk.Frame):
         self.reset()
 
 
-def log( text ):
-    # Prints debug text to console
-    if debug:
-        print( "[GraphicUi]: " + text )
 
 
 if __name__ == '__main__':
