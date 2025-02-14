@@ -1,5 +1,5 @@
-from game.Board import Board
-from game.GameEnums import *
+from tictactoe.game.Board import Board
+from tictactoe.game.GameEnums import *
 
 
 class BoardNode:

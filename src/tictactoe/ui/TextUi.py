@@ -1,8 +1,8 @@
-from game.TicTacToe import TicTacToe
-from game.GameEnums import GameState
-from game.GameEnums import Player
-from game.GameEnums import coord2cell
-from ai.BoardNode import BoardNode
+from tictactoe.game.TicTacToe import TicTacToe
+from tictactoe.game.GameEnums import GameState
+from tictactoe.game.GameEnums import Player
+from tictactoe.game.GameEnums import coord2cell
+from tictactoe.ai.BoardNode import BoardNode
 from enum import Enum
 
 

@@ -1,9 +1,9 @@
-from ai.TNode import TNode
-from game.Board import Board
-from game.GameEnums import Player
+from tictactoe.ai.TNode import TNode
+from tictactoe.game.Board import Board
+from tictactoe.game.GameEnums import Player
 from minmax.minmax import PlayerType, MinMaxTree
-from ui.GraphicUi import GraphicUi
-from ai.BoardNode import BoardNode
+from tictactoe.ui.GraphicUi import GraphicUi
+from tictactoe.ai.BoardNode import BoardNode
 
 
 def test5():

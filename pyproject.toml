@@ -12,3 +12,10 @@ classifiers = [
 requires-python = ">=3"
 license = {file = "LICENSE"}
 readme = "README.md"
+
+[project.gui-scripts]
+tictactoe = "tictactoe:main"
+
+[project.urls]
+"Homepage" = "https://github.com/saro476/tictactoe"
+"Bug Tracker" = "https://github.com/saro476/tictactoe/issues"

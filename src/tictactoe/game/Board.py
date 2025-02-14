@@ -1,6 +1,6 @@
-from game.GameEnums import Player
-from game.GameEnums import getboardcell
-from game.GameEnums import GameState
+from tictactoe.game.GameEnums import Player
+from tictactoe.game.GameEnums import getboardcell
+from tictactoe.game.GameEnums import GameState
 
 
 class Board:

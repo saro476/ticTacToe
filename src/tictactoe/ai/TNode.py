@@ -1,6 +1,6 @@
-from game.GameEnums import BoardCell, Player, GameState
+from tictactoe.game.GameEnums import BoardCell, Player, GameState
 from minmax.minmax import Node, Transition
-from game.Board import Board
+from tictactoe.game.Board import Board
 
 
 class TNode(Node):

@@ -1,11 +1,11 @@
 import tkinter as tk
 
-from ai.TNode import TNode
-from game.GameEnums import BoardCell
-from game.TicTacToe import TicTacToe
-from ai.BoardNode import BoardNode
-from game.GameEnums import GameState
-from game.GameEnums import Player
+from tictactoe.ai.TNode import TNode
+from tictactoe.game.GameEnums import BoardCell
+from tictactoe.game.TicTacToe import TicTacToe
+from tictactoe.ai.BoardNode import BoardNode
+from tictactoe.game.GameEnums import GameState
+from tictactoe.game.GameEnums import Player
 from minmax.minmax import MinMaxTree, PlayerType
 from enum import Enum
 
